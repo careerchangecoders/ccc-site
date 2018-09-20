@@ -20,7 +20,8 @@ a:hover {
 html,
 body {
     height: 100%;
-    background-color: #2d89ef;
+    background: url('../images/night-sky.jpg');
+    background-size: cover;
 }
 
 body {
