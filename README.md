@@ -1,4 +1,4 @@
-#Career Change Coders landing page
+# Career Change Coders landing page
 
 ## Download and Installation
 
@@ -12,7 +12,7 @@ After downloading, simply edit the HTML and CSS files included with the template
 
 ### Advanced Usage
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+After installation, run `yarn` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
 #### Gulp Tasks
 
@@ -22,7 +22,7 @@ After installation, run `npm install` and then run `gulp dev` which will open up
 - `gulp js` minifies the themes JS file
 - `gulp vendor` copies dependencies from node_modules to the vendor directory
 
-You must have npm and Gulp installed globally on your machine in order to use these features.
+You must have Yarn and Gulp installed globally on your machine in order to use these features.
 
 ## Bugs and Issues
 
