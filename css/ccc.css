@@ -48,7 +48,7 @@ section h2.section-heading {
 section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
   margin-bottom: 75px;
   text-transform: none;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -62,12 +62,17 @@ section h3.section-subheading {
 
 .btn {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .btn-xl {
-  font-size: 18px;
+  font-size: 16px;
   padding: 20px 40px;
+}
+
+.text-uppercase {
+  font-size: 0.9rem;
+  padding: 12px 24px;
 }
 
 .btn-primary {
@@ -97,6 +102,12 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+@media (max-width: 430px) {
+  .mr-2 {
+    margin-bottom: 16px;
+  }
 }
 
 #mainNav {
@@ -185,9 +196,8 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
-  font-style: italic;
-  line-height: 22px;
+  font-size: 24px;
+  line-height: 1.8rem;
   margin-bottom: 25px;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -206,10 +216,10 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
-    font-style: italic;
+    font-size: 38px;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin: 20px 0 50px;
+    line-height: 3rem;
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   header.masthead .intro-text .intro-heading {
@@ -224,6 +234,10 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+
+.section-subheading {
+  font-style: normal;
 }
 
 .timeline {

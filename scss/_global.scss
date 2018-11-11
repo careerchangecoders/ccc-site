@@ -39,7 +39,7 @@ section {
   h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
     margin-bottom: 75px;
     text-transform: none;
     @include serif-font;
@@ -54,14 +54,18 @@ section {
 // Button Styles
 .btn {
   @include heading-font;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .btn-xl {
-  font-size: 18px;
+  font-size: 16px;
   padding: 20px 40px;
 }
 
+.text-uppercase {
+   font-size: 0.9rem;
+   padding: 12px 24px;
+}
 .btn-primary {
   background-color: $primary;
   border-color: $primary;
@@ -95,4 +99,10 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+@media(max-width: 430px) {
+   .mr-2 {
+      margin-bottom: 16px;
+   }
 }
